@@ -25,7 +25,7 @@ sudo yum install -y yum-utils \
 ```
 >> 2. __Set up the `stable` repository:__
 ```shell
-sudo yum-config-manager \
+ sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
