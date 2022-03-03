@@ -1,7 +1,7 @@
 # Docker
 Docker
 
-## 1. Installing Docker
+## 1. Installing Docker on CentOS 7
 
 > - Uninstall old versions:
 ```shell
@@ -37,6 +37,12 @@ sudo yum -y install docker-ce
 
 ```shell
 sudo systemctl start docker && sudo systemctl enable docker
+```
+
+>> 5 __Verify that Docker Engine is installed correctly by running the hello-world image.__
+
+```shell
+sudo docker run hello-world
 ```
 >> 5. __Add `cloud_user` to the `docker` group:__
 ```shell
