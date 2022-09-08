@@ -12,6 +12,9 @@ curl localhost:8080
 docker run -p 8081:80  --name web2 -d httpd
 docker exec -it web2 bash
 echo "HEllo Amdocs again" > htdocs/index.html
+
+exit
+
 curl localhost:8080
 curl localhost:8081
 
